@@ -1,0 +1,216 @@
+/*Cores de fundo para o dashboard*/
+
+
+:root{
+  --corCritico: rgb(246, 69, 69);
+  --corAlerta: rgb(255, 224, 86);
+}
+
+body {
+  background-color: #a9b1ba;
+  overflow-x: hidden;
+}
+
+
+.background-color {
+  background-color: rgb(26, 72, 139);
+  width: 110%;
+  height: 30vh;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1), inset 0px 1px 22px 11px rgba(255, 255, 255, 0.05), inset 0px 2px 24px 13px rgba(35, 93, 231, 0.08);
+}
+
+/* Titúlo Lista */
+.titulo-notificacoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  margin-left: 1.2vw;
+  margin-top: -23vh;
+}
+
+.titulo-notificacoes h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2vh;
+  color: #FFFF
+}
+
+/* Notificações */
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 28.7vw;
+  margin-top: 4.3vh;
+  margin-bottom: 5vh;
+  width: 45%;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  background-color: rgb(237, 237, 237);
+  box-shadow: 5px 6px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  margin-top: 4vh;
+  color: #00194C;
+}
+
+
+/* Notificações-Produtos em falta */
+
+.publicacao {
+  display: flex;
+  flex-direction: column;
+  width: 37.2vw;
+  margin-left: 1vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  border-radius: 15px;
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+.mensagem{
+  z-index: 9999;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  font-size: large;
+}
+.posicaoCategorias{
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}
+
+.critico {
+  border: 1px solid var(--corCritico);
+  box-shadow: 8px 8px 0px 0px var(--corCritico);
+}
+
+.alerta {
+  border: 1px solid var(--corAlerta);
+  box-shadow: 8px 8px 0px 0px var(--corAlerta);
+}
+
+.publicacao h4 {
+  margin-top: 1vh;
+  margin-left: 1vw;
+}
+
+.publicacao p {
+  margin-left: 1vw;
+  margin-top: 1.5vh;
+}
+
+.data-hora {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 12.5px;
+  margin-right: 0.5vw;
+}
+
+/* Categorias */
+
+.container-categorias {
+  display: flex;
+  justify-content: center;
+  right: 0px;
+  margin-top: -6.6vh;
+  width: 18vw;
+  height: 36vh;
+  border-radius: 20px;
+  background-color: rgb(237, 237, 237);
+  color: #00194C;
+  box-shadow: 5px 6px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.container-categorias h1 {
+  margin-top: 2vh;
+}
+
+.classificacoes {
+  display: flex;
+  position: absolute;
+  margin-right: 8vw;
+}
+
+.classificacoes ul {
+  list-style: none;
+  margin-top: 10vh;
+}
+
+.classificacoes ul li {
+  margin-top: 2vh;
+  margin-left: 8vw;
+  margin-bottom: 3vh;
+}
+
+.classificacoes li a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  color: #00194C;
+  width: 100%;
+  height: 100%;
+  margin-left: 0.5vw;
+  padding: 5px;
+  transition: 0.4s;
+  padding-right: 2px;
+  justify-content: space-between;
+}
+
+.classificacoes a:hover {
+  transform: translateY(-8px);
+  background: rgba(0, 0, 0, 0.10);
+  border: rgba(0, 0, 0, 0.10);
+  border-radius: 9px;
+  width: 100%;
+}
+
+.svg-seta {
+  margin-left: 6vw;
+  margin-right: 2vw;
+}
+
+.legendas {
+  height: 26vh;
+  width: 18vw;
+  margin-top: 30px;
+}
+
+.legendas ul {
+  flex-direction: column;
+}
+
+.classificacoes-lengenda {
+  margin-left: 5vw;
+}
+
+
+.cores {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 13.4vh;
+  margin-left: -5vw;
+}
+
+.cor-alerta {
+  width: 6.5vw;
+  height: 0.5vh;
+  margin-top: 0.4vh;
+  margin-bottom: 0.4;
+  margin-right: 4vw;
+  background-color: var(--corAlerta);
+}
+
+.cor-critico {
+  width: 6.5vw;
+  height: 0.5vh;
+  margin-right: 4vw;
+  background-color: var(--corCritico);
+}
+

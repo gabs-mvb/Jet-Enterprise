@@ -1,0 +1,273 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+/* SECTION 1 */
+.container1{ /* Container geral da section 1 */
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 15vh;
+}
+.faixa-esquerda{ /* div filho do container 1 */
+    height: 120%;
+    width: 2vw;
+    background-color: #EAB200;
+    margin-top: 55vh;
+}
+.nossa_missao{  /* div filho do container 1 */
+    width: 50%;
+    font-size: 1.35vw;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #000D27;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    line-height: 3.5vh;
+    gap: 3vh;
+}
+.nossa_missao p{
+    text-align: justify;
+}
+.faixa-direita{ /* div filho do container 1 */
+    height: 120%;
+    width: 2vw;
+    background-color: #EAB200;
+    margin-bottom: 10vh;
+}
+.titulo-nossos-servicos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+.titulo-nossos-servicos h1{
+    font-size: 2.3vw;
+    font-weight: 800;
+    border-bottom: 4px solid #00194C;
+    text-align: center;
+    padding-bottom: 1vh;
+}
+.img-servicos{ /* img filho do container 1 */
+    height: 20vw;
+    border-radius: 3.38vw;
+}
+/* FINAL SECTION 1 */
+
+/* SECTION 2 */
+.container2{ /* container geral da section 2 */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url(../assets/logo_cinza.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+.titulo-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 2vw;
+}
+.caixa-azul{
+    background-color: #071D4A;
+    border-radius: 1.82vw;
+    color: white;
+    font-weight: 600;
+    font-size: 1vw;
+    padding: 1vh 0;
+}
+.paragrafo{
+    margin: 1.5vw 5vw 0 1.5vw;
+}
+.contato{
+    display: flex;
+    gap: 7vw;
+    margin: 1.5vw 5vw 1.5vw 1.5vw;
+    align-items: center;
+}
+.contato-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.telefone, .email{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+.img-icon{
+    height: 2vw;
+}
+
+/* FIM DA SECTION 2 */
+
+/* SECTION 3 */
+.container3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    font-weight: 800;
+    font-size: 2vw;
+    font-family: 'Inter', sans-serif;
+    color: #000D27;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+}
+.img-diagrama{
+    width: 86.66vw;
+    height: 108.26vh;
+}
+/* FINAL SECTION 3 */
+
+/* CALCULADORA */
+/* CALCULADORA FINANCEIRA*/
+
+.box-titulo {
+    display: flex;
+
+    width: 100%;
+    height: 100px;
+    margin-top: 10vh;
+    background: #071D4A;
+    justify-content: flex-start;
+}
+
+.text-calculator {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-calculator h1 {
+    color: #fff;
+    text-align: center;
+
+}
+
+.box-titulo svg {
+    height: 70%;
+    margin-top: 1vh;
+    margin-left: -1vh;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 0;
+    margin-top: 5vh;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.titulo_main_1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.titulo_main_1 h1 {
+    color: #000D27;
+    text-align: center;
+}
+
+.container_main_1 {
+    display: flex;
+    margin-top: 40px;
+}
+.titulos {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    text-align: end;
+    margin-bottom: 20px;
+    font-weight: 450;
+    color: black;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.buttons {
+    display: flex;
+}
+
+button {
+    font-weight:bolder;
+    border-color: #EAB200;
+    color: rgb(0, 0, 0);
+    padding: 10px 100px;
+    border-radius: 20px;
+    background-image: -webkit-linear-gradient(45deg, #EAB200 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #EAB200 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+ button:hover {
+    background-position: 0;
+  }
+
+.frase_cf_1 {
+text-align: center;
+font-weight: 400;
+color: #000D27;
+margin-left: 3%;
+margin-right: 3%;
+}
+
+
+.frase_cf_2 {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: #000D27;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 1%;
+}
+
+
+hr {
+    width: 100%;
+    border-top: 2px #000D27 solid;
+}
+
+
+.h1-text2 {
+    margin-top: 30px;
+}
+
+.h1-text1 {
+    margin-top: 10px;
+}
+
+.vermelho{
+    color: red;
+}
+.verde{
+    color: green;
+}

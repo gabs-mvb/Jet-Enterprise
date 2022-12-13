@@ -1,0 +1,333 @@
+/*Cores de fundo para o dashboard*/
+
+body {
+    background-color: #e5e8eb;
+}
+
+.background-color {
+    background-color: #1a488b;
+    width: 100%;
+    height: 30vh;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1), inset 0px 1px 22px 11px rgba(255, 255, 255, 0.05), inset 0px 2px 24px 13px rgba(35, 93, 231, 0.08);
+}
+
+/*Dashboard*/
+
+/*Titulo*/
+
+.dashboard-titulo h1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    color: white;
+    margin-left: 48%;
+    margin-top: 7vh;
+    font-size: 2rem;
+}
+
+
+/*KPIs*/
+
+.dashboard-kpis {
+    display: grid;
+    position: absolute;
+    height: 20vh;
+    width: 79%;
+    margin-left: 18%;
+    margin-right: 3%;
+    margin-top: 20vh;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.kpis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    box-shadow: 5px 6px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.kpi-titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 6%;
+}
+
+.kpi-dado-palavra-ajuste {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.kpi-dado {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.kpi-dado-menor {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Cor de efeito de cada KPI indicando o estado da situação (crítico, alerta, bom ou ótimo)*/
+.kpi-horario-pico-produtos {
+    border: 3px solid #2cc921;
+    box-shadow: 0px 0px 16px 1px rgba(12, 192, 0, 0.32);
+}
+
+.kpi-melhor-mes-produtos {
+    border: 3px solid #00194C;
+    box-shadow: 0px 0px 16px 1px rgb(120, 142, 202, 0.8);
+}
+
+.kpi-pior-mes-produtos {
+    border: 3px solid #00194C;
+    box-shadow: 0px 0px 16px 1px rgb(120, 142, 202, 0.8);
+}
+
+.kpi-dia-semana-produtos {
+    border: 3px solid #00194C;
+    box-shadow: 0px 0px 16px 1px rgba(120, 142, 202, 0.8);
+}
+
+
+/*Gráficos*/
+
+/*Configurações dos gráficos em geral*/
+
+.dashboard-graficos {
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    height: 45vh;
+    width: 79%;
+    margin-left: 18%;
+    margin-right: 3%;
+    margin-top: 45vh;
+    grid-template-columns: 1fr 2fr;
+}
+
+.graficos-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    box-shadow: 5px 6px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.graficos-container {
+    display: flex;
+    position: relative;
+    width: 31vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+/*Gráfico de donut do fluxo mensal dos produtos do mercado*/
+
+.titulo-fluxo-categorias {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 4vh;
+    width: 100%;
+    font-size: 2vh;
+    margin-top: 3vh;
+
+}
+
+.titulo-fluxo-categorias-adicional {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 4vh;
+    width: 100%;
+    font-size: 2vh;
+    margin-top: -1vh;
+}
+
+.container-grafico-donut-fluxo-categorias {
+    width: 21vw;
+    margin-top: -0.4vh;
+}
+
+/*Gráfico de linha do fluxo dos produtos no mercado por mês*/
+
+.container-grafico-linha-fluxo {
+    display: flex;
+    width: 45vw;
+    margin-top: -2vh;
+}
+
+.titulo-fluxo-produtos {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 4vh;
+    width: 100%;
+    font-size: 2vh;
+    margin-top: 3vh;
+    margin-bottom: 2.5vh;
+}
+
+
+/*Sessões*/
+.dashboard-sessoes {
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    height: 44vh;
+    width: 79%;
+    margin-left: 18%;
+    margin-right: 3%;
+    margin-top: 107vh;
+    grid-template-columns: 2fr 1fr;
+}
+
+.sessoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 6%;
+    box-shadow: 5px 6px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+/*Sessão de Gráfico adicionais*/
+
+.sessao-graficos {
+    height: 34vh;
+}
+
+.titulos-sessao1-grafico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1vw;
+    align-items: center;
+}
+
+.titulo-sessao1-grafico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+}
+
+.sessao-grafico-debaixo {
+    margin-top: -24vh;
+}
+
+.titulo-sessao2-grafico {
+    display: flex;
+    margin-right: 1vw;
+    font-size: 2vh;
+}
+
+.graficos-container-sessoes {
+    display: flex;
+    position: relative;
+    width: 32vw;
+}
+
+/*Categorias - links para mudar os gráficos da página*/
+.sessao-categorias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 60vh;
+}
+
+.sessao-categorias h2 {
+    color: #4e4e4e;
+    border-bottom: 1px solid #656565;
+}
+
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 45%;
+    margin-top: 12%;
+    width: 100%;
+}
+
+.container-categorias {
+    display: flex;
+}
+
+.titulos-categorias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-seta {
+    margin-left: 8vw;
+    margin-right: 2vw;
+
+}
+
+.categorias li {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+.categorias li a {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style: none;
+    color: #353535;
+    transition: 0.4s;
+    width: 100%;
+    padding: 4%;
+    border-radius: 2%;
+}
+
+.categorias li a:hover {
+    transform: translateY(-8px);
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 6px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    transition: 0.4s;
+}
+
+/*Espaço vazio no fim da página*/
+.footer-space {
+    display: flex;
+    padding: 1%;
+    width: 100%;
+    margin-top: 74%;
+}

@@ -1,0 +1,118 @@
+/*Padronização de todos os elementos*/
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+}
+::-webkit-scrollbar { width: 12px; height: 3px;}
+::-webkit-scrollbar-track-piece { background-color: #3a3a3a;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #959595; border-radius: 3px;}
+
+/*Sidebar total*/
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #00194C;
+    width: 15%;
+    height: 100vh;
+    border-radius: 0px 20px 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Icone de usuário e Nome completo*/
+.icone-perfil {
+    display: flex;
+    width: 70%;
+    margin-top: 4vh;
+    width: 10rem;
+    background-color: #fff;
+    height: 9rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 4px solid #fff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 4vh;
+}
+
+/*Categorias do sidebar - lista*/
+
+.sidebar-titulo { 
+    display: flex;
+    width: 100%;
+    margin-left: 1vh;
+    margin-right: 4vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    }
+
+.sidebar-lista {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+    height: 60vh;
+    justify-content: space-evenly;
+}
+
+.sidebar-lista li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.sidebar-lista li a {
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    transition: 0.4s;
+}
+
+/*Hover das categorias do sidebar - lista*/
+.sidebar-lista li a:hover {
+    transform: translateY(-8px);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 6px 2px 1px rgba(0, 0, 0, 0.2), inset 0px 0px 25px 5px rgba(0,0,0,0.16);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    transition: 0.4s;
+}
+
+/*Barra separadora das categorias do sidebar (lista)
+.sidebar-separacao {
+    background-color: white;
+    height: 1px;
+    width: 90%;
+}*/
+
+/*Icones das categorias (lista) do sidebar*/
+.sidebar-icone-lista {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5vh;
+}
+
+.sidebar-icone-jet {
+    margin-left: 2vh;
+}

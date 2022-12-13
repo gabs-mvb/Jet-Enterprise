@@ -1,0 +1,187 @@
+/*Cores de fundo para o produtos*/
+
+body {
+    overflow-x: hidden;
+    background-color: #e5e8eb;
+}
+
+.background-color {
+    background-color: #1a488b;
+    width: 100%;
+    height: 30vh;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1), inset 0px 1px 22px 11px rgba(255, 255, 255, 0.05), inset 0px 2px 24px 13px rgba(35, 93, 231, 0.08);
+}
+
+/*Titulo*/
+.titulo-pagina h1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    color: white;
+    margin-left: 34%;
+    margin-top: 7vh;
+    font-size: 4vh;
+}
+
+
+
+/*Cards da página*/
+.cards {
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    width: 82%;
+    margin-left: 17%;
+    margin-right: 3%;
+    margin-top: 20vh;
+    grid-template-columns: 2.8fr 1fr;
+}
+
+/*Card do título do setor */
+
+.titulo-setor-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    box-shadow: 0px 0px 12px 0.6px rgba(69, 116, 186, 0.65), 5px 6px 2px 1px rgba(0, 0, 0, 0.1);
+    height: 16vh;
+}
+
+.container-setor-e-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 4.6vh;
+}
+
+.setor-titulo {
+    margin-left: 1vw;
+}
+
+/*Card de setores*/
+.setores-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 2vh;
+    margin-right: 1vh;
+    box-shadow: 5px 6px 2px 1px rgba(0, 0, 0, 0.1);
+    height: 60vh;
+}
+
+.sessao-setores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.sessao-setores h2 {
+    color: #4e4e4e;
+    border-bottom: 1px solid #656565;
+    margin-top: 5vh;
+}
+
+.setores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 65%;
+    margin-top: 15%;
+    width: 100%;
+}
+
+.container-setores {
+    display: flex;
+}
+
+.titulos-setores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1vw;
+    font-size: 1.05rem;
+}
+
+.svg-seta {
+    margin-left: 5vw;
+    margin-right: 2vw;
+
+}
+
+.setores li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+.setores li a {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style: none;
+    color: #353535;
+    transition: 0.4s;
+    width: 100%;
+    padding: 4%;
+    border-radius: 2%;
+}
+
+.setores li a:hover {
+    transform: translateY(-8px);
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 6px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    transition: 0.4s;
+}
+
+/*KPIs*/
+.kpis-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 2vh;
+    margin-right: 1vh;
+    margin-top: -40vh;
+    box-shadow: 5px 6px 2px 1px rgba(0, 0, 0, 0.1);
+    height: 65vh;
+}
+
+/* Tabela dos produtos */
+.card-tabela-produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 18vw;
+    margin-right: 1.4vw;
+    margin-top: 54.5vh;
+    box-shadow: 5px 6px 2px 1px rgba(0, 0, 0, 0.1);
+    height: 120vh;
+}
+
+
+/*Espaço vazio no fim da página*/
+.footer-space {
+    display: flex;
+    padding: 1%;
+    width: 100%;
+    margin-top: 2%;
+}

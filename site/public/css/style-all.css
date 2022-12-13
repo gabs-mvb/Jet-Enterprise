@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Manrope", sans-serif;
+   
+}
+    ::-webkit-scrollbar { width: 12px; height: 3px;}
+    ::-webkit-scrollbar-track-piece { background-color: #3a3a3a;}
+    ::-webkit-scrollbar-thumb { height: 50px; background-color: #959595; border-radius: 3px;}
+
+/*MENU (HEADER)*/
+header{
+    background-color: #00194C;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    border-bottom: 5px solid #EAB200;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    padding: 1vh 0;
+}
+a{
+    text-decoration: none;
+}
+.logotipo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin: 2vh 0;
+}
+.logotipo h1{
+    font-size: 5vh;
+    transition: 0.3s;
+}
+.menu-lista{
+    display: flex;
+    align-items: center;
+}
+.menu-lista li{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    list-style: none;
+    margin: 0 2vh;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+}
+
+.menu-lista li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.menu-lista li a:hover{
+    color: #EAB200;
+    transition: 0.3s;
+}
+/*hover para aparecer a linha do link*/
+.menu-lista li a:after{
+    content: "";
+    position: absolute;
+    background-color: #EAB200;
+    height: 2px;
+    width: 0;
+    left: 0px;
+    bottom: -6px;
+    transition: 0.3s;
+}
+.menu-lista li a:hover:after{
+    width: 100%;
+}   
+/*final do hover para aparecer a linha do link*/
+
+/*hover no ícone svg integrado com o Perfil*/
+.menu-lista .icon{
+    height: 2.45vh;
+    margin-left: 1vh;
+    fill: white;
+    transition: 0.3s;
+}
+.menu-lista li a:hover svg{
+    color: #EAB200;
+    fill: #EAB200;
+    transition: 0.3s;
+}
+/*final do hover no ícone svg integrado com o perfil*/
+/*FINAL DO MENU (HEADER)*/
+/* RODAPÉ (FOOTER)*/
+.caixa-total{ /* div que cobre tudo */
+    background-color: #00194C;
+}
+.caixa-cima{ /* div da parte de cima*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 0;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+.textos{ /* div da parte do fale conosco */
+    display: flex;
+    flex-direction: column;
+    gap: 1vh 0;
+    color: white;
+    margin: 0 5vh;
+}
+.logotipo{ /* div da parde do logo */
+    margin: 0 5vh;
+}
+/* divs da parte de dentro do fale conosco */
+.textos .email{
+    display: flex;
+}
+.textos .telefone{
+    display: flex;
+}
+.textos .email p{
+    padding: 0 1vh;
+}
+.textos .telefone p{
+    padding: 0 1vh;
+}
+/* div da parte de baixo */
+.caixa-baixo{
+    display: flex;
+    color: #C5C3FF;
+    align-items: center;
+    padding: 2vh;
+    margin: 0 5vh;
+}
+
+.teste-suporte {
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 2vh;
+    font-family: Manrope;
+    color: #00194C;
+}
+
+.teste-suporte p {
+    font-size: 2rem;
+}

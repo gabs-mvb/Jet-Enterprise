@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+.background-color {
+  background-color: #1a488b;
+  width: 100%;
+  height: 30vh;
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.1), inset 0px 1px 22px 11px rgba(255,255,255,0.05), inset 0px 2px 24px 13px rgba(35,93,231,0.08);
+}
+
+body {
+  background-color: #e5e8eb;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+/* TITULO EMPRESA */
+.configuracoes-titulo{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding-top: 2%;
+  margin-left: 13vw;
+  margin-top: -23vh;
+}
+
+.configuracoes-titulo h1{
+  font-size: 2.5rem;
+  margin-bottom: 2vh;
+  color: #FFFF
+}
+
+
+/* CONTAINER GLOBAL */
+.container-all {
+display: flex;
+justify-content:center;
+flex-direction: column;
+margin-left: 23vw;
+margin-top: 3vh;
+width: 65%;
+margin-bottom: 50vh;
+padding: 60px;
+border-radius: 60px;
+background-color: #FFFF;
+}
+
+/* LINHA QUE SEPARA CADASTRO EMPRESA DO FUNCIONARIO*/
+hr {
+  margin-top: 5vh;
+  width: 100%;
+  border-top: 2px #000D27 solid;
+}
+
+/* TITULO DO CONTAINER */
+.titulo-2 {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 13vw;
+}
+
+.titulo-2 h3 {
+  font-size: 1.6rem;
+  margin-bottom: 2vh;
+  color : #000
+}
+
+.titulo-2 p{
+  width: 100%;
+  margin-bottom: 1vh;
+  color: #000;
+}
+
+.funcionarios {
+  margin-top: 5vh;
+}
+
+
+/*CONTAINER PAI DO CADASTRO*/
+.container-pai {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width: 100%;
+}
+
+/*CONTAINER DOS REGISTROS DA ESQUERDA*/
+.container-filho {
+  display: flex;
+  width: 50%;
+  margin-left: 10vw;
+  flex-direction: column;
+}
+
+/*CONTAINER DOS REGISTROS DA DIREITA*/
+.container-filho-2 {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+
+/*ESTILIZAÃ‡ÃƒO DAS INPUTS E TITULOS*/
+.estilo-box {
+  margin-top: 5vh;
+  color: #000
+}
+
+
+.estilo-box input {
+width: 70%;
+padding: 10px;
+}
+
+.estilo-box p {
+  margin-bottom: 1vh;
+  font-size: larger;
+}
+
+.estilo-box-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:flex-start;
+  margin-top: 3vh;
+  color: #000;
+}
+
+.cidade {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 4vh;
+  margin-right: 2vw;
+}
+
+.cidade p {
+  font-size: larger;
+}
+.cidade input{
+  width: 100%;
+  padding: 10px;
+}
+
+.estado {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 4vh;
+  width: 32%;
+}
+
+.estado p {
+  font-size: larger;
+  
+}
+
+.estado select{
+  width: 100%;
+  padding: 10px;
+}
+
+/*ESTILIZAÃ‡ÃƒO DO BOTÃƒO*/
+
+.botao-registro {
+  width: 25%;
+  padding: 15px;
+  margin-top: 5vh;
+  margin-left: 23vw;
+  background: #27508f;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.botao-registro:hover {
+  background: #00194C;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #eee;
+  text-shadow: none;
+}
+
+.combo-funcao {
+  padding: 12px;
+  width: 70%;
+}
+
+.red{
+  box-shadow: 0px 2px #db0f0fb5;
+  border: .01px solid #000;
+}
+.green{
+  box-shadow: 0px 2px #7cdb0fb5;
+  border: .01px solid #000;
+}
+
+.tabela-funcionarios {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+
+}
+
+.tabela-funcionarios h3{
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.func {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  border: 2.4px rgb(224, 224, 224) solid;
+  padding: 20px;
+  margin-top: 5vh;
+  border-radius: 9px;
+  box-shadow: 5px 6px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.tabela-funcionarios h1 {
+  text-align: center;
+}
+
+.estilo-atributos {
+display: flex;
+flex-direction: row;
+}
+
+.estilo-atributos h5 {
+  font-size: 1.3rem;
+}
+
+.estilo-atributos p{
+  font-size: 1.2rem;
+  text-align: center;
+  margin-left: 0.3vw;
+}
+.removerCard{
+width: 15%;
+padding: 15px;
+margin-top: 5vh;
+position: absolute;
+right: 50px;
+bottom: 25px;
+background: #27508f;
+color: #fff;
+border: 1px solid #eee;
+border-radius: 20px;
+box-shadow: 5px 5px 5px #eee;
+text-shadow: none;
+color: #fff;
+cursor: pointer;
+}
+
+.removerCard:hover {
+background: #00194C;
+color: #fff;
+border: 1px solid #eee;
+border-radius: 20px;
+box-shadow: 5px 5px 5px #eee;
+text-shadow: none;
+}
+

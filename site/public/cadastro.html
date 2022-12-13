@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css" />
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+  </head>
+  <body>
+    <section>
+      <div class="contentBox">
+        <div class="btnBack">
+          <img src="assets/arrowBack.svg" alt="" onclick="voltarPagina()" />
+        </div>
+        <div id="formBox" class="formBox">
+          <div class="header">
+            <h2>Cadastro</h2>
+            <p class="subtitle">Informe os dados cadastrais do cliente</p>
+          </div>
+          <form action="">
+            <span id="spanAviso"></span>
+            <!-- <span>Usuário</span> -->
+            <div class="inputBox border">
+              <img src="assets/cadastro/personCadastro.svg" alt="" />
+              <input id="inputUsuario" type="text" name="" placeholder="Usuário" onblur="validarUsuario()" required/>
+              <span id="spanErrorUser">Insira uma senha com caracteres especiais</span>
+            </div>
+            <!-- <span>Senha</span> -->
+            <div class="inputBox border">
+              <img src="assets/cadastro/keyCadastro.svg" alt="" />
+              <input
+                type="password"
+                name=""
+                id="inputSenha"
+                placeholder="Senha"
+                onblur="validarSenha()"
+                required
+              />
+              <img
+                id="btnVisibility"
+                class="visibility"
+                onclick="mostrarSenha()"
+                src="assets/cadastro/visibility.svg"
+                alt=""
+              />
+              <span id="spanErrorPassword">Insira uma senha com caracteres especiais</span>
+
+              <!-- <input type="checkbox" name="" id="inputSenha"> -->
+            </div>
+            <!-- <span>Nome completo</span> -->
+            <div class="inputBox border">
+              <img src="assets/cadastro/badgeCadastro.svg" alt="" />
+              <input id="inputNome" type="text" name="" placeholder="Nome Completo" required onblur="validarNome()"/>
+              <span id="spanErrorName">Insira uma senha com caracteres especiais</span>
+            </div>
+
+            <!-- <span>E-mail</span> -->
+            <div class="inputBox border">
+              <img src="assets/cadastro/emailCadastro.svg" alt="" />
+              <input id="inputEmail" type="email" name="" placeholder="E-mail" required onblur="validarEmail()"/>
+              <span id="spanErrorEmail">Insira uma senha com caracteres especiais</span>
+              
+            </div>
+
+            <!-- <span>Contato</span> -->
+            <div class="inputBox border">
+              <img src="assets/cadastro/callCadastro.svg" alt="" />
+              <input id="inputContato" type="text" name="" placeholder="Contato (Opcional)" onkeyup="validarContato()" />
+              <span id="spanErrorContate">Insira uma senha com caracteres especiais</span>
+            </div>
+
+            <div class="inputBox">
+              <input id="btnCadastrar" onclick="validar_autenticacao_cadastro()" type="button" value="Cadastrar" />
+            </div>
+            <div class="inputBox">
+              <span class="cadastrado"
+                >Já tem uma conta? Efetue login clicando<a href="login.html">
+                  aqui.</a
+                ></span
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+<script src="js/sign.js"></script>
+<script src="js/validacao.js"></script>
+

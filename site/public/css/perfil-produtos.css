@@ -1,0 +1,100 @@
+.produtos-titulo h1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    color: white;
+    margin-left: 52%;
+    margin-top: 7vh;
+    font-size: 2rem;
+}
+.background-color {
+    background-color: rgb(26, 72, 139);
+    width: 110%;
+    height: 30vh;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1), inset 0px 1px 22px 11px rgba(255, 255, 255, 0.05), inset 0px 2px 24px 13px rgba(35, 93, 231, 0.08);
+  }
+.container{
+    position: absolute;
+    width: 50%;
+    margin-left: 30%;
+    margin-right: 3%;
+    margin-top: 20vh;
+    background-color: white;
+    box-shadow:  5px 6px 2px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    gap: 2vh;
+} 
+.select_setor{
+    background-color: red;
+}
+.tabela{
+    width: 60%;
+    border-collapse: collapse;
+}
+.th_table{
+    border-bottom: 1px solid black;
+    width: 50%;
+    padding: 2%;
+}
+.tr_table{
+    border-bottom: 1px solid black;
+}
+.td_table{
+    text-align: center;
+    padding: 2% 0;
+}
+.td_table_btn{
+    border-bottom: 1px solid black;
+}
+.btn_remover_produto{
+    width: 4vw;
+    height: 3vh;   
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn_remover_produto:hover{
+    background-color: rgb(255, 101, 101);
+    border: 1px dashed black;
+    transition: 0.3s;
+}
+.btn_adicionar_produto{
+    width: 4vw;
+    height: 3vh;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn_adicionar_produto:hover{
+    background-color: rgb(0, 59, 0);
+    border: 1px dashed black;
+    transition: 0.3s;
+}
+.input_produto{
+    height: 3vh;
+    width: 80%;
+}
+.icon_editar{
+    width: 1.3vw;
+    cursor: pointer;
+}
+.td_table_produto{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-top: 3.1%;
+    margin-left: 40%;
+    justify-content: space-between;
+}

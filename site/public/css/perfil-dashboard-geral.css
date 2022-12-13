@@ -1,0 +1,365 @@
+/*Cores de fundo para o dashboard*/
+
+body {
+    background-color: #e5e8eb;
+}
+
+.background-color {
+    background-color: #1a488b;
+    width: 100%;
+    height: 30vh;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1), inset 0px 1px 22px 11px rgba(255, 255, 255, 0.05), inset 0px 2px 24px 13px rgba(35, 93, 231, 0.08);
+}
+
+/*Dashboard*/
+
+/*Titulo*/
+.dashboard-titulo h1 {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    color: white;
+    margin-left: 48%;
+    margin-top: 7vh;
+    font-size: 2rem;
+}
+
+/*KPIs*/
+.dashboard-kpis {
+    display: grid;
+    position: absolute;
+    height: 20vh;
+    width: 79%;
+    margin-left: 18%;
+    margin-right: 3%;
+    margin-top: 20vh;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.kpis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    box-shadow: 5px 6px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.kpi-titulo {
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.kpi-dado-palavra-ajuste {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.kpi-subtitulo {
+    font-size: 1.5rem;
+    margin-top: 1vh;
+    margin-left: 0.4vw;
+}
+
+.kpi-flex {
+    display: flex;
+    font-size: 1.9rem;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.kpi-dado {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.3rem;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.kpi-dado-status {
+    display: flex;
+    font-size: 1.8rem;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+}
+
+
+/*Cor de efeito de cada KPI indicando o estado da situação (crítico, alerta, bom ou ótimo)*/
+.amarelo {
+    border: 3px solid rgb(255, 224, 86);
+    box-shadow: 0px 0px 12px 0.6px rgba(255, 255, 12,0.22);
+}
+
+.vermelho {
+    border: 3px solid rgb(246, 69, 69);
+    box-shadow: 0px 0px 12px 0.6px rgba(201, 33, 33, 0.22);
+}
+
+.verde-lima {
+    border: 3px solid rgb(178, 220, 80);
+    box-shadow: 0px 0px 16px 1px rgba(12, 192, 0, 0.32);
+}
+
+.verde-escuro{
+    border: 3px solid rgb(93, 208, 67);
+    box-shadow: 0px 0px 16px 1px rgba(12, 192, 0, 0.32);
+}
+
+
+/*Gráficos*/
+
+/*Configurações dos gráficos em geral*/
+
+.dashboard-graficos {
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    height: 45vh;
+    width: 79%;
+    margin-left: 18%;
+    margin-right: 3%;
+    margin-top: 45vh;
+    grid-template-columns: 1fr 2fr;
+}
+
+.graficos-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    box-shadow: 5px 6px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.graficos-container {
+    display: flex;
+    position: relative;
+    width: 31vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+/*Gráfico de pizza do estado atual das gôndolas do mercado*/
+
+.titulo-estado-gondolas {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 4vh;
+    width: 100%;
+    font-size: 2vh;
+    margin-top: 3vh;
+
+}
+
+.container-grafico-pizza-mercado {
+    width: 18vw;
+}
+
+/*Gráfico de linha do fluxo dos produtos no mercado por mês*/
+
+.container-grafico-linha-fluxo {
+    display: flex;
+    width: 40vw;
+    margin-top: -3vh;
+}
+
+.titulo-fluxo-produtos {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 4vh;
+    width: 100%;
+    font-size: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2.5vh;
+}
+
+
+/*Sessões*/
+.dashboard-sessoes {
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    height: 40vh;
+    width: 79%;
+    margin-left: 18%;
+    margin-right: 3%;
+    margin-top: 101vh;
+    grid-template-columns: 2fr 1fr;
+}
+
+.sessoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 6%;
+    box-shadow: 5px 6px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+/*Sessão de porcentagem de abastecimento por setor*/
+.sessao-porcentagem-setor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+}
+
+.sessao-porcentagem-setor p {
+    font-size: 1.4rem;
+}
+
+.sessao-porcentagem-setor li {
+    display: flex;
+    margin-bottom: 3vh;
+    list-style: none;
+    align-items: center;
+}
+
+.titulos-setores {
+    margin-right: -2vw;
+}
+
+.cor-setores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    margin-left: -2vw;
+}
+
+
+.linha-amarela {
+    width: 8vw;
+    height: 0.4vh;
+    background-color:  rgb(255, 224, 86);
+}
+
+.linha-verde-escuro {
+    width: 8vw;
+    height: 0.4vh;
+    background-color:  rgb(93, 208, 67);
+}
+
+.linha-verde-lima{
+    width: 8vw;
+    height: 0.4vh;
+    background-color:  rgb(178, 220, 80);
+}
+
+.linha-vermelha {
+    width: 8vw;
+    height: 0.4vh;
+    background-color:  rgb(246, 69, 69);
+}
+
+.titulos-setores {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos-setores li {
+    justify-content: flex-end;
+}
+
+
+/*Categorias - links para mudar os gráficos da página*/
+.sessao-categorias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 60vh;
+}
+
+.sessao-categorias h2 {
+    color: #4e4e4e;
+    border-bottom: 1px solid #656565;
+}
+
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 45%;
+    margin-top: 12%;
+    width: 100%;
+}
+
+.container-categorias {
+    display: flex;
+}
+
+.titulos-categorias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-seta {
+    margin-left: 8vw;
+    margin-right: 2vw;
+
+}
+
+.categorias li {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+.categorias li a {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    list-style: none;
+    color: #353535;
+    transition: 0.4s;
+    width: 100%;
+    padding: 4%;
+    border-radius: 2%;
+}
+
+.categorias li a:hover {
+    transform: translateY(-8px);
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 6px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    transition: 0.4s;
+}
+
+/*Espaço vazio no fim da página*/
+.footer-space {
+    display: flex;
+    padding: 1%;
+    width: 100%;
+    margin-top: 65%;
+}
