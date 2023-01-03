@@ -88,7 +88,6 @@ a{
 .menu-lista li a:hover:after{
     width: 100%;
 }   
-/*final do hover para aparecer a linha do link*/
 
 /*hover no ícone svg integrado com o Perfil*/
 .menu-lista .icon{
@@ -102,9 +101,10 @@ a{
     fill: #EAB200;
     transition: 0.3s;
 }
-/*final do hover no ícone svg integrado com o perfil*/
-/*FINAL DO MENU (HEADER)*/
+
+
 /* RODAPÉ (FOOTER)*/
+
 .caixa-total{ /* div que cobre tudo */
     background-color: #00194C;
 }

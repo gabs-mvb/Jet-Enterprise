@@ -405,7 +405,7 @@ video {
 /*TEXTO DA PARTE DE TRÁS*/
 .theback p {
     font-family: 'zilla slab', sans-serif;
-    padding: 30px;
+    padding: 10px;
     margin-top: 1vh;
     font-weight: bold;
     font-size: 1rem;
@@ -485,4 +485,58 @@ video {
 /*COR DO TEXTO DA PARTE TRASEIRA DO CARD*/
 .cor-texto-card p {
     color: #071633;
+}
+
+@media (max-width: 1366px) {
+    body {
+        width: 113%;
+    }
+    .cards {
+        width: 99%;
+        height: 20vh;
+    }
+    .thecard {
+        width: 18vw;
+    }
+    .color-padding img {
+        width: 9.2vw;
+        margin-left: 8vh;
+    }
+    .theback p {
+        font-size: 0.8rem;
+    }
+    .texto-secao-dois {
+        right: 0vh;
+    }
+    .texto-secao-dois p {
+        margin: 9vh auto;
+    }
+    .sobre-nos{
+        height: 113%;
+    }
+
+    .titulo-1 {
+        left: 78vh;
+    }
+    .texto-1{
+        left: 82.5vh;
+        text-align: justify;
+    }
+    .titulo-3 {
+        left: 16.4vh;
+    }
+    .texto-3{
+        left: 16.4vh;
+        text-align: justify;
+    }
+    .titulo-2 {
+        left: 142vh;
+    }
+    .texto-2{
+        left: 148vh;
+        text-align: justify;
+    }
+    .texto-sobre-nos {
+        padding: 5vh;
+    }
 }
