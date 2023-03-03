@@ -19,7 +19,7 @@ O objetivo é monitorar e gerenciar o reabastecimento das prateleiras de forma e
 
 1. Clone este repositório em sua máquina.
 
-1.1 Clique aqui e acesse: https://gabs-mvb.github.io/Jet-Enterprise/site/public/
+ - 1.1 Clique aqui e acesse: https://gabs-mvb.github.io/Jet-Enterprise/site/public/
 
 2. Crie, no Banco de Dados, as tabelas necessárias para o funcionamento deste projeto.
 - Siga as instruções no arquivo **/site/src/database/script-tabelas.sql**
