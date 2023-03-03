@@ -46,9 +46,3 @@ _O comando acima irá iniciar seu projeto e efetuar os comandos de acordo com a 
 4. Conecte um Arduino conectado a protoboar e siga os passos abaixo:
 - Insira o TCRT 5000 na protoboard, ligue o cabo vermelho no resistor de 330R, que ligará na saída 5v, o cabo preto no GND(TERRA). 
 - O sensor é ligado ao resistor de 10KΩ  e em uma entrada digital (A7) (cabo amarelo) no Arduino.
-
-<img src="https://s4.aconvert.com/convert/p3r68-cdx67/a3oo5-win27.jpg" width="400px">
-
-- Conecte o sistema microcontrolador junto ao sensor na máquina integrada ao sistema computacional e utilize o código C++ em **./api-arduino/** feito para o Arduino, para garantir o funcionamento do sensor, ultilizando a mesma sequencia de comandos feitos anteriormente.
-
-<img src="https://s4.aconvert.com/convert/p3r68-cdx67/a9kid-uyr58.jpg" width="800px">
